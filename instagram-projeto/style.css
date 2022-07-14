@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: solid 1px black;
+}
+body{
+    background-color: #FAFAFA;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner{
+    margin: 30px 25px 30px 50px;
+    width: 70%;
+}
+.banner img{
+    width: 100%;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px 30px 25px;
+    align-items: center;
+}
+.form-buttons{
+    background-color: white;
+    width: 70%;
+    height: 400px;
+}
+.form-buttons form input{
+    display: flex;
+    margin: 7px;
+    height: 35px;
+    width: 250px;
+}
