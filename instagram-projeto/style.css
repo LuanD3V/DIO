@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .box{
     border: solid 1px black;
@@ -11,30 +12,114 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: flex-start;
+    margin-top: 60px;
 }
 .banner{
-    margin: 30px 25px 30px 50px;
-    width: 70%;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    width: 50%;
 }
 .banner img{
-    width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding-bottom: 100px;
 }
 .login{
     display: flex;
     flex-direction: column;
-    margin: 30px 50px 30px 25px;
-    align-items: center;
+    max-width: 900px;
 }
-.form-buttons{
-    background-color: white;
-    width: 70%;
-    height: 400px;
-}
-.form-buttons form input{
+.login-container{
     display: flex;
-    margin: 7px;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    background-color: white;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 4px;
+}
+.logo-instagram{
+    margin: 50px 0px 25px 0px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-container form input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
     height: 35px;
-    width: 250px;
+    margin: 7px;
+    background-color: #FAFAFA;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 4px;
+}
+.form-container button{
+    width: 300px;
+    height: 35px;
+    margin: 7px;
+    background-color: #B2DFFC;
+    color: white;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 4px;
+}
+.login-config{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-config p{
+    color: rgb(158, 157, 157);
+    font-size: 14px;
+}
+.login-facebook{
+    color: #38568D;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+.reset-password{
+    text-decoration: none;
+    color: #38568D;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 20px 0px;
+    background-color: white;
+    border: solid 1px rgb(219, 219, 219);
+    min-width: 300px;
+    height: 60px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.register a{
+    text-decoration: none;
+    color:#33a3ee;
+    font-weight: 600;
+}
+.text p{
+    text-align: center;
+}
+.app-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+.app-download a img{
+    width: 150px;
 }
