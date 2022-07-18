@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    height: 90vh;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+.text1{
+    font-size: 25px;
+    text-align: start;
+    margin: 40px;
+}
+
+.counter{
+    display: flex;
+}
+.counter span{
+    font-size: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: 10vh;
+}
+
+button{
+    margin: 0px 20px 0px 20px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border: solid aliceblue;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
